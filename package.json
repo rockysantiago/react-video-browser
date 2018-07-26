@@ -1,0 +1,21 @@
+{
+  "name": "react-video-browser",
+  "version": "0.1.0",
+  "description": "An app that allows users to search for YouTube videos using the YouTube Data API",
+  "main": "index.js",
+  "repository": "https://github.com/rockysantiago/react-video-browser.git",
+  "author": "rockysantiago <raphael.santiago@icloud.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
