@@ -1,10 +1,10 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 import YTSearch from 'youtube-api-search';
-import keys from '../../config/keys';
-import SearchBar from './SearchBar';
-import VideoDetail from './VideoDetail';
-import VideoList from './VideoList';
+import keys from 'config/keys';
+import SearchBar from 'components/SearchBar';
+import VideoDetail from 'components/VideoDetail';
+import VideoList from 'components/VideoList';
 
 const API_KEY = keys.youtubeApiKey;
 
