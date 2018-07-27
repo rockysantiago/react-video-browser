@@ -1,12 +1,12 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 import YTSearch from 'youtube-api-search';
+import keys from '../config/keys';
 import SearchBar from './SearchBar';
 import VideoDetail from './VideoDetail';
 import VideoList from './VideoList';
 
-// To test, replace the API_KEY with your own personal YouTube Data API key
-const API_KEY = '';
+const API_KEY = keys.youtubeApiKey;
 
 class App extends Component {
   constructor(props) {
